@@ -3,6 +3,7 @@ import './pokeitem.css';
 
 const PokeItem = (props) => {
     return (
+
         <figure>
             <img src='https://pokeres.bastionbot.org/images/pokemon/25.png' alt="" />
             <figcaption>
