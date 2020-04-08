@@ -3,14 +3,18 @@ import './pokeitem.css';
 
 const PokeItem = (props) => {
     return (
-        <figure>
-            <img src='https://pokeres.bastionbot.org/images/pokemon/25.png' alt="" />
-            <figcaption>
-                <h3>Title:</h3>
+        <figure className="pokemon">
 
-                <a href='#'>Check out</a>
-            </figcaption>
+            <div className="img-container">
+                <img src='https://pokeres.bastionbot.org/images/pokemon/25.png' alt="" />
+            </div>
+            <div className="info">
+                <span className="number">025</span>
+                <h3 className="name">Pikachu</h3>
+                <small className="type">Type: <span>electric</span></small>
+            </div>
         </figure>
+
     )
 }
 

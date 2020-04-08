@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PokeItem from './PokeItem';
 import './pokelist.css';
 
+
 class PokeList extends Component {
     state = { PokeDex: [] }
 
@@ -16,7 +17,7 @@ class PokeList extends Component {
     }
     render() {
         return (
-            <section>
+            <section className="poke-container">
                 <PokeItem />
                 <PokeItem />
                 <PokeItem />
@@ -24,9 +25,6 @@ class PokeList extends Component {
                 <PokeItem />
                 <PokeItem />
                 <PokeItem />
-                    )
-                }
-                )}
             </section>);
     }
 }
