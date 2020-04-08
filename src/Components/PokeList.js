@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PokeItem from './PokeItem';
 import './pokelist.css';
-
+import PokePictures from './PokePictures'
 
 class PokeList extends Component {
     state = {
@@ -20,7 +20,7 @@ class PokeList extends Component {
 
     render() {
         return (
-            <section>
+            <section className="poke-container">
                 {this.state.PokeDex.map((pokemon, i) => {
                     return (<PokeItem name={pokemon.name} url={pokemon.url} key={i} number={i}
                     />)

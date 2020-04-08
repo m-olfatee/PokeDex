@@ -12,11 +12,14 @@ const PokeItem = (props) => {
     }
 
     return (
-        <figure>
-            <img src={image} alt="" />
-            <figcaption>
-                <h3>{props.name}</h3>
-                <a href={props.url}>Check out</a>
+        <figure className="pokemon">
+            <div className="img-container">
+                <img src={image} alt="" />
+            </div>
+            <figcaption className="info">
+                <span className="number">{props.number}</span>
+                <h3 className="name">{props.name}</h3>
+                <small className="type">Type: <span>{PokePictures[props.number].type}</span></small>
             </figcaption>
         </figure>
 
