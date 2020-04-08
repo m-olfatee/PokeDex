@@ -1,7 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400&display=swap");
+
 * {
     box-sizing: border-box;
 }
 
+body {
+    background: #efefbb;
+    background: -webkit-linear-gradient(to right, #d4d3dd, #efefbb);
+    background: linear-gradient(to right, #d4d3dd, #efefbb);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato";
+    margin: 0;
+}
+
+h1 {
+    letter-spacing: 3px;
+}
+.pokemon {
+    background-color: #eee;
+    border-radius: 20px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
 .poke-container {
     display: flex;
     flex-wrap: wrap;
@@ -9,4 +36,29 @@
     justify-content: center;
     margin: 0 auto;
     max-width: 1200px;
+}
+
+.sort-button {
+    border-radius: 26.5px;
+    background-color: #001f61;
+    border: 1px solid #001f61;
+    box-shadow: 0 16px 22px -17px #03153b;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 12px 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.sort-button:hover {
+    background-color: #2a1aeb;
+    color: #ff1c84;
+}
+
+.sort-button:focus {
+    outline: none;
 }

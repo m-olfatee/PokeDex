@@ -5,7 +5,7 @@ import PokePictures from './PokePictures'
 
 class PokeList extends Component {
     state = {
-        PokeDex: []
+        PokeDex: [], sortUp: true
     }
 
     componentDidMount = () => {
@@ -17,15 +17,51 @@ class PokeList extends Component {
                 this.setState({ PokeDex: data.results })
             });
     }
+    // handleSortAZ = () => {
+    //     const sortedArray = this.state.PokeDex.sort((a, b) => {
+    //         let eltA = a.name.toUpperCase();
+    //         let eltB = b.name.toUpperCase();
+    //         if (eltA < eltB) {
+    //             return -1;
+    //         } else if (eltA > eltB) {
+    //             return 1;
+    //         } else { return 0 }
+    //     });
+    //     this.setState({ PokeDex: sortedArray });
+    // };
+    // handleSortZA = () => {
+    //     const sortedArray = this.state.PokeDex.sort((a, b) => {
+    //         let eltA = a.name.toUpperCase();
+    //         let eltB = b.name.toUpperCase();
+    //         if (eltA < eltB) {
+    //             return 1;
+    //         } else if (eltA > eltB) {
+    //             return -1;
+    //         } else { return 0 }
+    //     });
+    //     this.setState({ PokeDex: sortedArray });
+    // };
+    // handleSortAZUNDZA = () => {
+    //     if (this.state.sortUp === true) {
+    //         this.handleSortAZ();
+    //         this.setState({ sortUp: !this.state.sortUp })
+    //     } else {
+    //         this.handleSortZA();
+    //         this.setState({ sortUp: !this.state.sortUp })
+    //     }
+    // }
 
     render() {
         return (
-            <section className="poke-container">
-                {this.state.PokeDex.map((pokemon, i) => {
-                    return (<PokeItem name={pokemon.name} url={pokemon.url} key={i} number={i}
-                    />)
-                })}
-
+            <section>
+                <h1>PokeDex</h1>
+                <div className="poke-container" >
+                    {this.state.PokeDex.map((pokemon, i) => {
+                        return (<PokeItem name={pokemon.name} url={pokemon.url} key={i} number={i}
+                        />)
+                    })}
+                </div>
+                <button onClick={this.handleSortAZUNDZA} className="sort-button">A-Z oder Z-A</button>
             </section>);
     }
 }
