@@ -4,27 +4,28 @@ import './pokelist.css';
 
 
 class PokeList extends Component {
-    state = { PokeDex: [] }
+    state = {
+        PokeDex: []
+    }
 
     componentDidMount = () => {
-        fetch('')
+        fetch('https://pokeapi.co/api/v2/pokemon?limit=151')
             .then((response) => {
                 return response.json();
             })
             .then((data) => {
-                this.setState({ PokeDex: data })
+                this.setState({ PokeDex: data.results })
             });
     }
+
     render() {
         return (
-            <section className="poke-container">
-                <PokeItem />
-                <PokeItem />
-                <PokeItem />
-                <PokeItem />
-                <PokeItem />
-                <PokeItem />
-                <PokeItem />
+            <section>
+                {this.state.PokeDex.map((pokemon, i) => {
+                    return (<PokeItem name={pokemon.name} url={pokemon.url} key={i} number={i}
+                    />)
+                })}
+
             </section>);
     }
 }

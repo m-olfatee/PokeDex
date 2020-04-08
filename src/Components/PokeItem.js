@@ -1,18 +1,23 @@
 import React from 'react';
 import './pokeitem.css';
+import PokePictures from "../Components/PokePictures"
 
 const PokeItem = (props) => {
-    return (
-        <figure className="pokemon">
+    for (let i = 0; i < PokePictures.length; i++) {
 
-            <div className="img-container">
-                <img src='https://pokeres.bastionbot.org/images/pokemon/25.png' alt="" />
-            </div>
-            <div className="info">
-                <span className="number">025</span>
-                <h3 className="name">Pikachu</h3>
-                <small className="type">Type: <span>electric</span></small>
-            </div>
+        if (i == props.number) {
+            var image = PokePictures[i].src
+            console.log(image)
+        }
+    }
+
+    return (
+        <figure>
+            <img src={image} alt="" />
+            <figcaption>
+                <h3>{props.name}</h3>
+                <a href={props.url}>Check out</a>
+            </figcaption>
         </figure>
 
     )
