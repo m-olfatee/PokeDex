@@ -3,7 +3,7 @@ import './App.css';
 import PokeList from './Components/PokeList'
 function App() {
   return (
-    <div className="App">
+    <div>
       <PokeList />
     </div>
   );
