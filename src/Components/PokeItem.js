@@ -26,4 +26,4 @@ const PokeItem = (props) => {
     )
 }
 
-export default PokeItem;
+export default PokeItem
