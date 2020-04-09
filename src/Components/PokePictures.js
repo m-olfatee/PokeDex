@@ -108,20 +108,22 @@ const pokemon151 = [
         "src": "https://pokeres.bastionbot.org/images/pokemon/16.png",
         "id": 16,
         number: "#016",
-        type: " flying",
+        type: "flying",
         link: "https://bulbapedia.bulbagarden.net/wiki/Pidgey_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/17.png",
         "id": 17,
         number: "#017",
-        type: "flying"
+        type: "flying",
+        link: "https://bulbapedia.bulbagarden.net/wiki/Pidgeotto_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/18.png",
         "id": 18,
         number: "#018",
-        type: "flying"
+        type: "flying",
+        link: "https://bulbapedia.bulbagarden.net/wiki/Pidgeot_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/19.png",
@@ -141,14 +143,14 @@ const pokemon151 = [
         "src": "https://pokeres.bastionbot.org/images/pokemon/21.png",
         "id": 21,
         number: "#021",
-        type: " flying",
+        type: "flying",
         link: "https://bulbapedia.bulbagarden.net/wiki/Spearow_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/22.png",
         "id": 22,
         number: "#022",
-        type: " flying",
+        type: "flying",
         link: "https://bulbapedia.bulbagarden.net/wiki/Fearow_(Pok%C3%A9mon)"
     },
     {
@@ -575,34 +577,22 @@ const pokemon151 = [
         "src": "https://pokeres.bastionbot.org/images/pokemon/83.png",
         "id": 83,
         number: "#083",
-<<<<<<< HEAD
-        type: "flying"
-=======
-        type: " flying",
+        type: "flying",
         link: "https://bulbapedia.bulbagarden.net/wiki/Farfetch%27d_(Pok%C3%A9mon)"
->>>>>>> 929ae216d5a797022ea1077b278969ebac898fa3
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/84.png",
         "id": 84,
         number: "#084",
-<<<<<<< HEAD
-        type: "flying"
-=======
-        type: " flying",
+        type: "flying",
         link: "https://bulbapedia.bulbagarden.net/wiki/Doduo_(Pok%C3%A9mon)"
->>>>>>> 929ae216d5a797022ea1077b278969ebac898fa3
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/85.png",
         "id": 85,
         number: "#085",
-<<<<<<< HEAD
-        type: "flying"
-=======
-        type: " flying",
+        type: "flying",
         link: "https://bulbapedia.bulbagarden.net/wiki/Dodrio_(Pok%C3%A9mon)"
->>>>>>> 929ae216d5a797022ea1077b278969ebac898fa3
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/86.png",
