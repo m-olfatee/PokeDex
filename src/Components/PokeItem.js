@@ -1,5 +1,5 @@
 import React from 'react';
-import './Pokeitem.css';
+import './pokeitem.css';
 import PokePictures from "../Components/PokePictures"
 
 const PokeItem = (props) => {
