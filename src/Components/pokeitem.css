@@ -1,5 +1,8 @@
+.grass {
+    background: green;
+}
+
 .pokemon {
-    background-color: #eee;
     border-radius: 20px;
     box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
     margin: 10px;
@@ -35,6 +38,7 @@
     margin: 15px 0 7px;
     letter-spacing: 1px;
 }
+
 .pokemon .link {
     font-size: 0.9em;
     padding: 5px 10px;
