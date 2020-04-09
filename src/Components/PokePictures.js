@@ -46,133 +46,133 @@ const pokemon151 = [
         "id": 7,
         number: "#007",
         type: "water",
-        link: "https://bulbapedia.bulbagarden.net/wiki/squirtle_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/8.png",
         "id": 8,
         number: "#008",
         type: "water",
-        link: "https://bulbapedia.bulbagarden.net/wiki/wartortle_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Wartortle_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/9.png",
         "id": 9,
         number: "#009",
         type: "water",
-        link: "https://bulbapedia.bulbagarden.net/wiki/blastoise_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Blastoise_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/10.png",
         "id": 10,
         number: "#010",
         type: "bug",
-        link: "https://bulbapedia.bulbagarden.net/wiki/caterpie_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/11.png",
         "id": 11,
         number: "#011",
         type: "bug",
-        link: "https://bulbapedia.bulbagarden.net/wiki/metapod_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Metapod_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/12.png",
         "id": 12,
         number: "#012",
         type: "bug",
-        link: "https://bulbapedia.bulbagarden.net/wiki/butterfree_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Butterfree_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/13.png",
         "id": 13,
         number: "#013",
         type: "poison",
-        link: "https://bulbapedia.bulbagarden.net/wiki/weedle_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Weedle_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/14.png",
         "id": 14,
         number: "#014",
         type: "poison",
-        link: "https://bulbapedia.bulbagarden.net/wiki/kakuna_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Kakuna_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/15.png",
         "id": 15,
         number: "#015",
         type: "poison",
-        link: "https://bulbapedia.bulbagarden.net/wiki/beedrill_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Beedrill_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/16.png",
         "id": 16,
         number: "#016",
         type: " flying",
-        link: "https://bulbapedia.bulbagarden.net/wiki/pidgey_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Pidgey_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/17.png",
         "id": 17,
         number: "#017",
         type: " flying",
-        link: "https://bulbapedia.bulbagarden.net/wiki/pidgeotto_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Pidgeotto_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/18.png",
         "id": 18,
         number: "#018",
         type: " flying",
-        link: "https://bulbapedia.bulbagarden.net/wiki/pidgeot_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Pidgeot_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/19.png",
         "id": 19,
         number: "#019",
         type: "normal",
-        link: "https://bulbapedia.bulbagarden.net/wiki/rattata_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/20.png",
         "id": 20,
         number: "#020",
         type: "normal",
-        link: "https://bulbapedia.bulbagarden.net/wiki/raticate_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Raticate_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/21.png",
         "id": 21,
         number: "#021",
         type: " flying",
-        link: "https://bulbapedia.bulbagarden.net/wiki/spearow_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Spearow_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/22.png",
         "id": 22,
         number: "#022",
         type: " flying",
-        link: "https://bulbapedia.bulbagarden.net/wiki/fearow_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Fearow_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/23.png",
         "id": 23,
         number: "#023",
         type: "poison",
-        link: "https://bulbapedia.bulbagarden.net/wiki/ekans_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Ekans_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/24.png",
         "id": 24,
         number: "#024",
         type: "poison",
-        link: "https://bulbapedia.bulbagarden.net/wiki/arbok_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Arbok_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/25.png",
         "id": 25,
         number: "#025",
         type: "electric",
-        link: "https://bulbapedia.bulbagarden.net/wiki/pikachu_(Pok%C3%A9mon)"
+        link: "https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon)"
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/26.png",
