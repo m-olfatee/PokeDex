@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import PokeItem from './PokeItem';
 import './pokelist.css';
-import PokePictures from './PokePictures'
 
 class PokeList extends Component {
     state = {
         PokeDex: [], sortUp: true
     }
-
     componentDidMount = () => {
         fetch('https://pokeapi.co/api/v2/pokemon?limit=151')
             .then((response) => {
