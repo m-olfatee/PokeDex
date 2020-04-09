@@ -66,7 +66,7 @@ class PokeList extends Component {
                 <h1>PokeDex</h1>
                 <div className="poke-container" >
                     {pokeComplicated.map((pokemon, i) => {
-                        return (<PokeItem name={pokemon.name} url={pokemon.url} key={i} number={i} src={pokemon.src}
+                        return (<PokeItem name={pokemon.name} url={pokemon.url} key={i} number={pokemon.number} src={pokemon.src} type={pokemon.type} link={pokemon.link}
                         />)
                     })}
                 </div>
