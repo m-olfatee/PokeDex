@@ -23,7 +23,7 @@ const PokeItem = (props) => {
                 <span className="number">{PokePictures[props.number].number}</span>
                 <h3 className="name">{props.name}</h3>
                 <p className="type">Type: <span>{PokePictures[props.number].type}</span></p>
-                <a className="link" href={link}>Check out</a>
+                <a className="link" href={link}>More Information</a>
             </figcaption>
         </figure >
 
