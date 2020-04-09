@@ -108,34 +108,20 @@ const pokemon151 = [
         "src": "https://pokeres.bastionbot.org/images/pokemon/16.png",
         "id": 16,
         number: "#016",
-<<<<<<< HEAD
-        type: "flying"
-=======
         type: " flying",
         link: "https://bulbapedia.bulbagarden.net/wiki/Pidgey_(Pok%C3%A9mon)"
->>>>>>> 929ae216d5a797022ea1077b278969ebac898fa3
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/17.png",
         "id": 17,
         number: "#017",
-<<<<<<< HEAD
         type: "flying"
-=======
-        type: " flying",
-        link: "https://bulbapedia.bulbagarden.net/wiki/Pidgeotto_(Pok%C3%A9mon)"
->>>>>>> 929ae216d5a797022ea1077b278969ebac898fa3
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/18.png",
         "id": 18,
         number: "#018",
-<<<<<<< HEAD
         type: "flying"
-=======
-        type: " flying",
-        link: "https://bulbapedia.bulbagarden.net/wiki/Pidgeot_(Pok%C3%A9mon)"
->>>>>>> 929ae216d5a797022ea1077b278969ebac898fa3
     },
     {
         "src": "https://pokeres.bastionbot.org/images/pokemon/19.png",
