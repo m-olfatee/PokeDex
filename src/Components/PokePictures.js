@@ -336,7 +336,7 @@ const pokemon151 = [
         link: "https://bulbapedia.bulbagarden.net/wiki/Penonat_(Pok%C3%A9mon)"
     },
     {
-        "src": "https://pokeres.bastionbot.org/images/Pokemon/49.png",
+        "src": "https://pokeres.bastionbot.org/images/pokemon/49.png",
         "id": 49,
         number: "#049",
         type: "poison",
