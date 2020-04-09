@@ -6,7 +6,6 @@ class PokeList extends Component {
     state = {
         PokeDex: [], sortUp: true
     }
-
     componentDidMount = () => {
         fetch('https://pokeapi.co/api/v2/pokemon?limit=151')
             .then((response) => {
