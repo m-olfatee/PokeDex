@@ -7,7 +7,7 @@ const pokemon151 = [
         link: "https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)"
     },
     {
-        "src": "https://pokeres.bastionbot.org/images/pokemon/2.png",
+        "src": "https://archives.bulbagarden.net/media/upload/thumb/2/21/001IvysaurIvysaur.png/250px-001Ivysaur.png",
         "id": 2,
         number: "#002",
         type: "grass",
